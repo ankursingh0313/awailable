@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-10 px-4 bg-gray-50">
       <h6 className="text-l font-bold text-center">
-        Share your text here accross devices...
+        Share your text accross devices...
       </h6>
 
       <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-6 justify-center sm:gap-3 gap-5">
