@@ -39,10 +39,17 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-10 px-4 bg-gray-50">
-      <h6 className="text-l font-bold text-center">
-        Share your text accross devices...
-      </h6>
+    <div className="min-h-screen flex flex-col items-center justify-center sm:gap-20 gap-10 px-4 bg-gray-50">
+      <div className="flex flex-col gap-3">
+        <h1 className="text-xl font-bold text-center">
+          Instant Rooms, Effortless Sharing
+        </h1>
+        <h6 className="text-l font-semibold text-center max-w-[700px]">
+          Create a secure text-sharing room with a simple 4-digit code — no
+          signups, no hassle. Share messages in real-time, copy them with a tap,
+          and let the room auto-expire after an hour for total privacy.
+        </h6>
+      </div>
 
       <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-6 justify-center sm:gap-3 gap-5">
         {/* Create Room */}
